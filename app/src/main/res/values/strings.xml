@@ -1,3 +1,13 @@
-<resources>
-  <string name="app_name">Reporter</string>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+  <string name="app_name">Samsao\'s Reporter</string>
+  <string name="dialog_title">Details</string>
+  <string name="dialog_button">OK</string>
+  <string name="format_LastUpdateDate">Updated: <xliff:g id="update">%1$s</xliff:g></string>
+
+  <!--Dialog info-->
+  <string name="format_name">Repository: <xliff:g id="name">%1$s</xliff:g></string>
+  <string name="format_update">Updated: <xliff:g id="update">%1$s</xliff:g></string>
+  <string name="format_language">Language: <xliff:g id="language">%1$s</xliff:g></string>
+  <string name="format_branch">Default branch: <xliff:g id="branch">%1$s</xliff:g></string>
+  <string name="format_forks">Forks count: <xliff:g id="forks">%1$s</xliff:g></string>
 </resources>

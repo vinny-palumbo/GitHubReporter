@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingLeft="32dp"
+    android:paddingRight="32dp">
+
+    <TextView
+        android:id="@+id/dialog_name_textview"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium" />
+    <TextView
+        android:id="@+id/dialog_update_textview"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAppearance="?android:textAppearanceMedium" />
+    <TextView
+        android:id="@+id/dialog_language_textview"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAppearance="?android:textAppearanceMedium" />
+    <TextView
+        android:id="@+id/dialog_branch_textview"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAppearance="?android:textAppearanceMedium" />
+    <TextView
+        android:id="@+id/dialog_forksCount_textview"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+</LinearLayout>
