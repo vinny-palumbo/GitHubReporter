@@ -188,7 +188,7 @@ public class MainActivity extends ActionBarActivity {
 
                 try {
                     // Construct the URL for the query
-                    URL url = new URL("https://api.github.com/users/samsao/repos?callback=foo");
+                    URL url = new URL("https://api.github.com/users/vinny-palumbo/repos?callback=foo");
 
                     // Create the request to GitHub API, and open the connection
                     urlConnection = (HttpURLConnection) url.openConnection();
